@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 :root{
@@ -24,10 +25,94 @@
 }
 
 body{
-    width: 1440px;
+    width: 100%;
+    border: 1px solid black;
 }
 
+/* Nav Bar */
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+
+.fylo-logo{
+    max-height: 30px;
+}
+
+.nav-bar-links{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav-bar-links a{
+    text-decoration: none;
+    color: var(--desaturated-blue);
+}
+
+/* Main Section */
+/* main{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* Top Section */
+.top{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    line-height: 2.5rem;
+}
+
+.signup p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.email-input{
+    width: 50%;
+    padding: 8px;
+    border: 1px solid var(--light-gray);
+    border-radius: 3px;
+}
+
+.get-started-btn{
+    width: 30%;
+    margin-left: 5px;
+    padding: 8px;
+    border: 1px solid var(--bright-blue);
+    border-radius: 3px;
+    background-color: var(--bright-blue);
+    color: var(--light-grayish-blue);
+    cursor: pointer;
+}
+
+.top-img{
+    max-width: 50%;
+    height: auto;
+}
+
+/* Bottom Section */
+
+.bottom{
+    margin-top: 80px;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bot-img{
+    max-width: 40%;
+    height: auto;
 }
